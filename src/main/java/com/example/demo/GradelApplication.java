@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class GradelApplication {
-@RequestMapping("/hello")
+@RequestMapping("/vedikas")
 public String test() {
-	return "hello";
+	return "vedikas";
 }
 	public static void main(String[] args) {
 		SpringApplication.run(GradelApplication.class, args);
